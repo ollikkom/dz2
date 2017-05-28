@@ -9,9 +9,9 @@ void Shop::addProduct(Product* product){
     products.push_back(product);
 }
 
-//void Shop::removeProduct(int i){
-//
-//}
+void Shop::removeProduct(int i){
+  products.erase(products.end()-1);
+}
 
 Product Shop::getProduct(int i){
     return *products.at(i);
