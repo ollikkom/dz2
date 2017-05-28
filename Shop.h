@@ -21,7 +21,7 @@ public:
 
     void addProduct(Product*);
     Product getProduct(int);
-    void removeProduct(int);
+//    void removeProduct(int);
     Product* getProducts();
     int getCount() { return products.size(); }
 
